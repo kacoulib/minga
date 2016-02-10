@@ -13,42 +13,18 @@
 		</div><!-- .site-content -->
 
 		<footer id="colophon" class="site-footer" role="contentinfo">
-			<?php if ( has_nav_menu( 'primary' ) ) : ?>
-				<nav class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Footer Primary Menu', 'twentysixteen' ); ?>">
-					<?php
-						wp_nav_menu( array(
-							'theme_location' => 'primary',
-							'menu_class'     => 'primary-menu',
-						 ) );
-					?>
-				</nav><!-- .main-navigation -->
-			<?php endif; ?>
-
-			<?php if ( has_nav_menu( 'social' ) ) : ?>
-				<nav class="social-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Footer Social Links Menu', 'twentysixteen' ); ?>">
-					<?php
-						wp_nav_menu( array(
-							'theme_location' => 'social',
-							'menu_class'     => 'social-links-menu',
-							'depth'          => 1,
-							'link_before'    => '<span class="screen-reader-text">',
-							'link_after'     => '</span>',
-						) );
-					?>
-				</nav><!-- .social-navigation -->
-			<?php endif; ?>
 
 			<div class="site-info">
 				<div>
-					<img src="sdfsd">
+					<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQJZsHF5JjCRC5lGfCvAACAEwzIKyST2WPrz-QDr9u3oY77d80z">
 					<div>
-						<span class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></span>
+						<span class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" class="color-white">LA MINGA</a></span>
 						<p><?php bloginfo('description'); ?></p>
 					</div>
 				</div>
 				<div>
 					<p>84 quai de jemmapes 75010 Paris</p>
-					<p>SUIVEZ NOUS : <a href="">FACEBOOK</a> - <a href="">TWITTER</a></p>
+					<p><span class="color-white">SUIVEZ NOUS</span> : <a href="">FACEBOOK</a> - <a href="">TWITTER</a></p>
 				</div>
 				
 			</div><!-- .site-info -->

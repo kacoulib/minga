@@ -82,9 +82,6 @@ footer#colophon .site-info div img{
 footer#colophon .site-info .site-title{
 	font-size: 1.5em;
 }
-footer#colophon .site-info .site-title a{
-	color: white !important;
-}
 footer#colophon .site-info p{
 	margin: 0 0;
 }
@@ -101,11 +98,18 @@ footer#colophon .site-info > div:nth-child(2){
 	text-align: right;
 	float: right;
 }
+footer#colophon .site-info > div:nth-child(1) > div{
+	display: inline-block;
+	margin-left: .7em;
+}
 footer#colophon .site-info > div{
 	display: inline-block;
 }
 .site-footer .site-title:after{
 	content: none !important;
+}
+.color-white{
+	color: white !important;
 }
 /*fin zikb*/
 
