@@ -68,6 +68,48 @@ body {
 	margin: 0;
 }
 
+/*zikb*/
+footer#colophon{
+	background-color: black;
+	padding: 2em 1em;
+}
+footer#colophon .site-info{
+	width: 100%;
+}
+footer#colophon .site-info div img{
+	float: left;
+}
+footer#colophon .site-info .site-title{
+	font-size: 1.5em;
+}
+footer#colophon .site-info .site-title a{
+	color: white !important;
+}
+footer#colophon .site-info p{
+	margin: 0 0;
+}
+footer#colophon .site-info p a{
+	color: rgb(19, 105, 179);
+}
+footer#colophon .site-info p a:hover{
+	color: rgb(33, 138, 230);
+}
+footer#colophon .site-info > div:nth-child(1){
+	float: left;
+}
+footer#colophon .site-info > div:nth-child(2){
+	text-align: right;
+	float: right;
+}
+footer#colophon .site-info > div{
+	display: inline-block;
+}
+.site-footer .site-title:after{
+	content: none !important;
+}
+/*fin zikb*/
+
+
 article,
 aside,
 details,
